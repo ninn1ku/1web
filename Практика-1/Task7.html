@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Task7</title>
+</head>
+
+<body style="background-color: #add8e6; font-family: 'Times New Roman';">
+
+    <h1>Изображения-карты</h1>
+    Карта - это заданный набор областей различной формы, Заданные области карты считаются активными, и брарер работает с
+    ними практически
+    аналогично тому, как он работает с изображениями-гиперссылками. Так вот, изображение-карта - это обычное изображение
+    с наложенной на него картой активных областей.
+    <h2>Примеры карт</h2>
+    Изображения карт иллюстрируют способы эмания координат областей для переходов
+    <hr noshade />
+    <h3>Карта 1</h3>
+
+    <map name="Map-1">
+        <area shape="circle" coords="110,120,105" href="assets/karta1.html" alt="karta1" />
+        <area shape="rect" coords="20,185,200,300" href="assets/karta2.html" alt="karta2" />
+    </map>
+    <img  style="border: 5px solid blue;" usemap="#Map-1" src="./pictures-for-HTML/karta/map1.jpg" alt="Карта-1" />
+    </img>
+    <hr noshade>
+    На этой странице представлены две карты, которые позволяют выполнять различные переходы. Для правильного
+    функционирования страницы необходимо
+    проверить все ссылки на файлы, заданные с помоцъю атрибутов src и href
+    <hr noshade>
+    <h3>Карта 2</h3>
+    <map name="Map-2">
+        <area shape="rect" coords="0,0,335,241" href="assets/karta3.html" alt="karta3" />
+    </map>
+    <img  style="border: 5px solid blue;" usemap="#Map-2" src="./pictures-for-HTML/karta/map2.jpg" alt="Карта-2" />
+    </img>
+
+</body>
+
+</html>
